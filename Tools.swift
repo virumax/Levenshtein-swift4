@@ -19,7 +19,6 @@ class Tools {
     
     private class func min(numbers: Int...) -> Int {
         return numbers.reduce(numbers[0]) {$0 < $1 ? $0 : $1}
-//        return numbers.reduce(numbers[0], combine: {$0 < $1 ? $0 : $1})
     }
     
     class Array2D {
